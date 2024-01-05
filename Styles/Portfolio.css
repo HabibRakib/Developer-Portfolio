@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>li {
+    display: flex;
+}
+
+span {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 10px;
+    color: #000000;
+}
+
+button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}
